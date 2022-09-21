@@ -1,0 +1,13 @@
+.nav-logo {
+  display: flex;
+  align-items: center;
+  width: 1170px;
+}
+
+.logo {
+  text-decoration: none;
+}
+
+.logo-img {
+  width: 55px;
+}/*# sourceMappingURL=nav-logo.css.map */
