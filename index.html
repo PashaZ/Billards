@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./dist/css/main.min.css" />
+    <link rel="shortcut icon" type="image/png" href="./images/favicon.ico" />
     <title>Billards</title>
 
 </head>
@@ -115,14 +116,31 @@
                 </div>
             </div>
         </section>
-        
-<!-- footer  -->
+
+        <!-- footer  -->
         <footer class="address">
             <div class="address-block">
                 <h2 class="address-text">м. Київ, Березняківська 36А</h2>
                 <h3 class="address-tel">(044) 555-55-55</h3>
             </div>
         </footer>
+
+        <!-- form -->
+        <section class="form">
+            <div class="section-form">
+                <h2 class="section-form-title">Залиште свій номер телефону і наші менеджери звяжуться з вами щоб
+                    зарезервувати стіл для білярду </h2>
+                <form class="form-reserve" id="reserve" validate="">
+                    <input class="input-form" name="email" id="email" type="email"
+                        pattern="([a-z0-9]+[._-]){0,}?[a-z0-9]+@[a-z0-9]+[.]{1}[a-z]{2,4}$" title="user.name@some.ca"
+                        placeholder="Ваш email" required="">
+
+                    <input class="input-form" name="name" id="name" type="text" pattern="[^0-9]{2,}"
+                        title="This field must contain more than 1 letters" placeholder="Ваше імя" required="">
+                    <button class="form-button" type="submit" for="reserve">Надіслати</button>
+                </form>
+            </div>
+        </section>
     </main>
 
 </body>
