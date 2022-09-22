@@ -8,6 +8,11 @@
     text-align: center;
     color: $primary-text-color;
     font-family: $main-font-family;
+
+    @media (max-width: 1000px) {
+        width: 310px;
+        margin: 0 auto;
+    }
 }
 
 .card-title {
@@ -18,6 +23,10 @@
     font-weight: normal;
     font-size: 72px;
     line-height: 90%;
+
+    @media (max-width: 1000px) {
+        font-size: 50px;
+    }
 }
 
 .card-text {
@@ -36,6 +45,10 @@
     overflow: hidden;
     width: 980px;
     margin: 0 auto;
+
+    @media (max-width: 1000px) {
+        width: 310px;
+    }
 }
 
 .card-list {
@@ -58,6 +71,16 @@
         margin-right: 145px;
     }
 
+    @media (max-width: 1000px) {
+        width: 216px;
+        height: 118px;
+        margin: 0 auto 53px;
+        float: none;
+
+        &:not(:last-child) {
+            margin: 0 auto 30px;
+        }
+    }
 }
 
 .card-list-title {
@@ -68,6 +91,12 @@
     margin-bottom: 24px;
     font-family: $main-font-family;
     color: $primary-text-color;
+
+    @media (max-width: 1000px) {
+        margin-top: 21px;
+        margin-bottom: 4px;
+        font-size: 18px;
+    }
 }
 
 .card-list-price {
@@ -77,6 +106,11 @@
     line-height: 150%;
     font-family: $main-font-family;
     color: $primary-text-color;
+
+    @media (max-width: 1000px) {
+        font-size: 24px;
+        margin: 0px;
+    }
 }
 
 .point {
@@ -100,11 +134,19 @@
 .point-mid-right {
     bottom: 201px;
     right: -4px;
+
+    @media (max-width: 1000px) {
+        visibility: hidden;
+    }
 }
 
 .point-mid-left {
     bottom: 201px;
     left: -4px;
+
+    @media (max-width: 1000px) {
+        visibility: hidden;
+    }
 }
 
 .point-bottom-right {

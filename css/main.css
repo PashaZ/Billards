@@ -54,6 +54,11 @@ button {
   color: #FFFFFF;
   font-family: "Times New Roman", sans-serif;
 }
+@media (max-width: 1000px) {
+  .hero-title {
+    font-size: 50px;
+  }
+}
 
 .hero-text {
   width: 380px;
@@ -64,6 +69,11 @@ button {
   font-size: 24px;
   font-family: "Times New Roman", sans-serif;
   color: #FFFFFF;
+}
+@media (max-width: 1000px) {
+  .hero-text {
+    visibility: hidden;
+  }
 }
 
 .main-button-block {
@@ -120,6 +130,12 @@ button {
   color: #FFFFFF;
   font-family: "Times New Roman", sans-serif;
 }
+@media (max-width: 1000px) {
+  .card-block-title {
+    width: 310px;
+    margin: 0 auto;
+  }
+}
 
 .card-title {
   margin-bottom: 24px;
@@ -129,6 +145,11 @@ button {
   font-weight: normal;
   font-size: 72px;
   line-height: 90%;
+}
+@media (max-width: 1000px) {
+  .card-title {
+    font-size: 50px;
+  }
 }
 
 .card-text {
@@ -145,6 +166,11 @@ button {
   overflow: hidden;
   width: 980px;
   margin: 0 auto;
+}
+@media (max-width: 1000px) {
+  .card-list-block {
+    width: 310px;
+  }
 }
 
 .card-list {
@@ -166,6 +192,17 @@ button {
 .card:not(:last-child) {
   margin-right: 145px;
 }
+@media (max-width: 1000px) {
+  .card {
+    width: 216px;
+    height: 118px;
+    margin: 0 auto 53px;
+    float: none;
+  }
+  .card:not(:last-child) {
+    margin: 0 auto 30px;
+  }
+}
 
 .card-list-title {
   margin-top: 48px;
@@ -176,6 +213,13 @@ button {
   font-family: "Times New Roman", sans-serif;
   color: #FFFFFF;
 }
+@media (max-width: 1000px) {
+  .card-list-title {
+    margin-top: 21px;
+    margin-bottom: 4px;
+    font-size: 18px;
+  }
+}
 
 .card-list-price {
   margin-top: 63px;
@@ -184,6 +228,12 @@ button {
   line-height: 150%;
   font-family: "Times New Roman", sans-serif;
   color: #FFFFFF;
+}
+@media (max-width: 1000px) {
+  .card-list-price {
+    font-size: 24px;
+    margin: 0px;
+  }
 }
 
 .point {
@@ -208,10 +258,20 @@ button {
   bottom: 201px;
   right: -4px;
 }
+@media (max-width: 1000px) {
+  .point-mid-right {
+    visibility: hidden;
+  }
+}
 
 .point-mid-left {
   bottom: 201px;
   left: -4px;
+}
+@media (max-width: 1000px) {
+  .point-mid-left {
+    visibility: hidden;
+  }
 }
 
 .point-bottom-right {
@@ -228,6 +288,11 @@ button {
   height: 950px;
   background: #FFFFFF;
 }
+@media (max-width: 1000px) {
+  .content {
+    height: 780px;
+  }
+}
 
 .content-title-block {
   padding-top: 100px;
@@ -235,6 +300,13 @@ button {
   margin-bottom: 60px;
   color: #000000;
   font-family: "Times New Roman", sans-serif;
+}
+@media (max-width: 1000px) {
+  .content-title-block {
+    width: 260px;
+    margin: 0 auto;
+    padding-top: 30px;
+  }
 }
 
 .content-title {
@@ -244,12 +316,22 @@ button {
   font-size: 72px;
   line-height: 90%;
 }
+@media (max-width: 1000px) {
+  .content-title {
+    font-size: 50px;
+  }
+}
 
 .content-text {
   margin-top: 20px;
   font-weight: 600;
   font-size: 18px;
   line-height: 150%;
+}
+@media (max-width: 1000px) {
+  .content-text {
+    margin: 20px auto;
+  }
 }
 
 .content-section {
@@ -261,6 +343,14 @@ button {
   width: 981px;
   position: relative;
 }
+@media (max-width: 1000px) {
+  .content-section {
+    display: block;
+    width: 100%;
+    margin: 30px auto;
+    padding: 0;
+  }
+}
 
 .content-section-block {
   margin-right: 120px;
@@ -268,6 +358,11 @@ button {
   width: 480px;
   color: #000000;
   font-family: "Times New Roman", sans-serif;
+}
+@media (max-width: 1000px) {
+  .content-section-block {
+    display: none;
+  }
 }
 
 .content-section-title {
@@ -295,6 +390,11 @@ button {
   padding: 0;
   border-radius: 20px;
 }
+@media (max-width: 1000px) {
+  .content-section-img {
+    margin: 0 auto;
+  }
+}
 
 .contacts-block {
   margin-top: 60px;
@@ -313,12 +413,20 @@ button {
   color: #FFFFFF;
   font-family: "Times New Roman", sans-serif;
 }
+@media (max-width: 1000px) {
+  .contacts-title {
+    font-size: 50px;
+  }
+}
 
 .contacts-text {
   width: 400px;
-  margin-top: 80px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 80px auto 50px;
+}
+@media (max-width: 1000px) {
+  .contacts-text {
+    margin-top: 50px;
+  }
 }
 
 .contacts-text > p {
@@ -384,6 +492,12 @@ button {
   font-style: normal;
   color: #FFFFFF;
   font-family: "Times New Roman", sans-serif;
+}
+@media (max-width: 1000px) {
+  .section-form-title {
+    font-size: 22px;
+    font-weight: 400;
+  }
 }
 
 .form-reserve {

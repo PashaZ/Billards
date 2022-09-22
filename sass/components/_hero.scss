@@ -33,6 +33,11 @@
     color: $primary-text-color;
     font-family: $main-font-family;
 
+    @media (max-width: 1000px) {
+        font-size: 50px;
+    }
+
+
 }
 
 .hero-text {
@@ -44,6 +49,11 @@
     font-size: 24px;
     font-family: $main-font-family;
     color: $primary-text-color;
+
+    @media (max-width: 1000px) {
+        visibility: hidden;
+    }
+
 }
 
 .main-button-block {
