@@ -63,4 +63,53 @@
     border-radius: 50px;
     font-weight: 600;
     cursor: pointer;
+    margin-top: 50px;
+}
+
+// ------------------------------------
+
+
+.policy-label {
+    display: flex;
+    margin-left: -70px;
+
+    font-family: $main-font-family;
+    font-size: 12px;
+    line-height: 1.2em;
+    font-weight: 400;
+
+
+}
+
+
+.policy-link {
+    display: block;
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 15px;
+    color: #a0a0a0;
+    text-decoration: none;
+    text-align: left;
+}
+
+.disclaimer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+
+.disclaimer-text {
+    margin-left: 10px;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 1.4em;
+    text-decoration: none;
+    color: $primary-text-color;
+    font-family: $main-font-family;
+}
+
+.disclimer-icon {
+    color: $primary-text-color
 }

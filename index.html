@@ -138,8 +138,24 @@
 
                     <input class="input-form" name="name" id="name" type="text" pattern="[^0-9]{2,}"
                         title="This field must contain more than 1 letters" placeholder="Ваше імя" required="">
+
+                    <label class="policy-label">
+                        <input type="checkbox" name="policy" required
+                            value="Натискаючи кнопку, ви погоджуєтеся з політикою конфіденційності" />
+                        <a href="./pages/policy.html" class="policy-link">
+                            Натискаючи кнопку, даю згоду на обробку персональних даних відповідно до закону України
+                        </a>
+                    </label>
+
                     <button class="form-button" type="submit" for="reserve">Надіслати</button>
                 </form>
+
+                <div class="disclaimer">
+                    <span class="disclimer-icon">&#169;</span>
+                    <p class="disclaimer-text">
+                        "Всі права захищені" 2016-2022
+                    </p>
+                </div>
             </div>
         </section>
     </main>
